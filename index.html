@@ -3,31 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News Today - Home</title>
+    <title>NewsToday - Latest News & Updates</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- Header Section -->
     <header>
-        <h1>📰 News Today</h1>
-        <p>Your daily source of latest updates</p>
+        <div class="logo">NewsToday</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Politics</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Entertainment</a></li>
+                <li><a href="#">Health</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <hr>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Breaking News: AI Takes Over the Tech World</h1>
+            <p>The rapid growth of artificial intelligence is reshaping industries worldwide.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
 
-    <nav>
-        <a href="world.html">World</a> | 
-        <a href="tech.html"> Technology</a> | 
-        <a href="sports.html"> Sports</a> | 
-        <a href="entertainment.html"> Entertainment</a>
-    </nav>
+    <!-- Latest News Section -->
+    <section class="latest-news">
+        <h2>Latest News</h2>
+        <div class="news-grid">
+            <div class="news-card">
+                <img src="images/image.png" alt="AI News">
+                <h3>AI Revolutionizing Industries</h3>
+                <p>Discover how artificial intelligence is transforming healthcare, finance, and more.</p>
+            </div>
+            <div class="news-card">
+                <img src="images/gs.png" alt="World News">
+                <h3>Global Summit 2025</h3>
+                <p>World leaders discuss climate change, economy, and future strategies.</p>
+            </div>
+            <div class="news-card">
+                <img src="images/football.png" alt="Sports News">
+                <h3>Champions League Final</h3>
+                <p>The most awaited football match of the year is finally here!</p>
+            </div>
+            <div class="news-card">
+                <img src="images/vaccine.png" alt="Health News">
+                <h3>New Vaccine Breakthrough</h3>
+                <p>Scientists develop a vaccine that promises better immunity and fewer side effects.</p>
+            </div>
+        </div>
+    </section>
 
-    <hr>
+    <!-- Featured Articles Section -->
+    <section class="featured-articles">
+        <h2>Featured Articles</h2>
+        <div class="article-container">
+            <div class="article">
+                <img src="images/election.png" alt="Politics">
+                <div class="article-text">
+                    <h3>Election 2025: What You Need to Know</h3>
+                    <p>Upcoming elections are set to reshape the global political landscape.</p>
+                </div>
+            </div>
+            <div class="article">
+                <img src="images/movies.png" alt="Entertainment">
+                <div class="article-text">
+                    <h3>Top 10 Movies of the Year</h3>
+                    <p>From thrillers to comedies, check out the must-watch movies of 2025.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <h2>Welcome to News Today!</h2>
-    <p>Click on the categories above to read the latest news.</p>
-
+    <!-- Footer -->
     <footer>
-        <p>📩 Contact us: <a href="mailto:contact@newstoday.com">contact@newstoday.com</a></p>
+        <p>&copy; 2025 NewsToday. All rights reserved.</p>
     </footer>
 
 </body>
