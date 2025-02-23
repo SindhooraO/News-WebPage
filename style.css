@@ -190,3 +190,35 @@ footer {
     font-weight: 400;
     margin-top: 30px;
 }
+
+.register {
+    padding:  60px;
+    margin: 90px 500px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgb(56, 55, 55);
+    border-radius: 8px;
+}
+.register input{
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    width: 60%;
+}
+
+.register button{
+padding: 8px;
+border: none;
+border-radius: 7px;
+width: 30%;
+background-color:#e68900;
+}
+button:hover{
+    background-color: #ff9900f6;
+}
+button a {
+    color: white;
+    text-decoration: none;
+}
